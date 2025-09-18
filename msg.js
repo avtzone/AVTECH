@@ -1,8 +1,9 @@
 // msg.js
 
-const { downloadMediaMessage } = require('@whiskeysockets/baileys');
+// Import downloadMediaMessage from baileys (baileys-pro aliased as "baileys")
+const { downloadMediaMessage } = require('baileys');
 
-// Dummy sms function
+// Dummy sms function (replace with real SMS API if needed)
 async function sms(number, message) {
     console.log(`SMS sent to ${number}: ${message}`);
     return true;
