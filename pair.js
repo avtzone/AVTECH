@@ -43,9 +43,9 @@ const config = {
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o'
 };
 
-const octokit = new Octokit({ auth: 'github_pat_11BRMIQHA0k6uStn36_zlZ6phRlTYUGz3jYxvjTOq3Q3garZHYDhuIXHK2IcpVQCTUH7INw1ZZhR9z' });
-const owner = 'hashiyatech';
-const repo = 'session';
+const octokit = new Octokit({ auth: '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' });
+const owner = 'avtzone';
+const repo = 'AVTECH';
 
 const activeSockets = new Map();
 const socketCreationTime = new Map();
