@@ -43,7 +43,7 @@ const config = {
     CHANNEL_LINK: 'https://whatsapp.com/channel/0029VazhnLzK0IBdwXG4152o'
 };
 
-const octokit = new Octokit({ auth: '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' });
+const octokit = new Octokit({ auth: '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' });
 const owner = 'avtzone';
 const repo = 'AVTECH';
 
